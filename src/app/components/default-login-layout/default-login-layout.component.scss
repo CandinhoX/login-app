@@ -39,6 +39,16 @@ main{
             border: none;
             background: transparent;
 
+            &.btn-primary{
+                background-color: $primary-color;
+                color: white;
+            }
+
+            &.btn-secondary{
+                border: 1px solid $primary-color;
+                color: $primary-color;
+            }
+
         }
  
     }
